@@ -28,9 +28,23 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "77e6fcddc8892e106251a965688f6b63ad7ceac1",
     "commitName": "Feat: Se agrego el precio por item y se muestra en pantalla como la cantidad de items",
     "commitTimestamp": 1772718718574,
     "testId": 2
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1772719005592,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Feat: Se agrego el precio neto precio por item * cantidad de items",
+    "commitTimestamp": 1772719038737,
+    "testId": 3
   }
 ]

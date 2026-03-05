@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "77e6fcddc8892e106251a965688f6b63ad7ceac1",
     "author": "Gabriel Fernandez",
     "commit": {
       "date": "2026-03-05T13:51:56.000Z",
       "message": "Feat: Se agrego el precio por item y se muestra en pantalla como la cantidad de items",
-      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo8/commit/HEAD"
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo8/commit/77e6fcddc8892e106251a965688f6b63ad7ceac1"
     },
     "stats": {
       "total": 51,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Fernandez",
+    "commit": {
+      "date": "2026-03-05T13:57:16.000Z",
+      "message": "Feat: Se agrego el precio neto precio por item * cantidad de items",
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo8/commit/HEAD"
+    },
+    "stats": {
+      "total": 55,
+      "additions": 53,
+      "deletions": 2,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }
