@@ -8,9 +8,15 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "006e6cdace1a16d1177f2e0d85f3b9552d323109",
     "commitName": "Se agrego la primera funcionalidad de registrar los items y mostrarlos en pantalla",
     "commitTimestamp": 1772718119325,
     "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Fix: No mostraba la cantidad de items en pantalla ahora si",
+    "commitTimestamp": 1772718359495,
+    "testId": 1
   }
 ]

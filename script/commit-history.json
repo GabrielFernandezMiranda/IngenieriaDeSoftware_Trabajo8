@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "006e6cdace1a16d1177f2e0d85f3b9552d323109",
     "author": "Gabriel Fernandez",
     "commit": {
       "date": "2026-03-05T13:41:57.000Z",
       "message": "Se agrego la primera funcionalidad de registrar los items y mostrarlos en pantalla",
-      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo8/commit/HEAD"
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo8/commit/006e6cdace1a16d1177f2e0d85f3b9552d323109"
     },
     "stats": {
       "total": 59,
       "additions": 40,
       "deletions": 19,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Fernandez",
+    "commit": {
+      "date": "2026-03-05T13:45:57.000Z",
+      "message": "Fix: No mostraba la cantidad de items en pantalla ahora si",
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo8/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-03-05"
     },
     "coverage": 100,
