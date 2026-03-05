@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0d78177f9a3b5ff048241db10ca6cebca8029d79",
     "author": "Gabriel Fernandez",
     "commit": {
       "date": "2026-03-05T13:45:57.000Z",
       "message": "Fix: No mostraba la cantidad de items en pantalla ahora si",
-      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo8/commit/HEAD"
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo8/commit/0d78177f9a3b5ff048241db10ca6cebca8029d79"
     },
     "stats": {
       "total": 2,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Fernandez",
+    "commit": {
+      "date": "2026-03-05T13:51:56.000Z",
+      "message": "Feat: Se agrego el precio por item y se muestra en pantalla como la cantidad de items",
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo8/commit/HEAD"
+    },
+    "stats": {
+      "total": 51,
+      "additions": 50,
+      "deletions": 1,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }

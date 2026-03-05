@@ -14,9 +14,23 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0d78177f9a3b5ff048241db10ca6cebca8029d79",
     "commitName": "Fix: No mostraba la cantidad de items en pantalla ahora si",
     "commitTimestamp": 1772718359495,
     "testId": 1
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1772718630279,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Feat: Se agrego el precio por item y se muestra en pantalla como la cantidad de items",
+    "commitTimestamp": 1772718718574,
+    "testId": 2
   }
 ]
