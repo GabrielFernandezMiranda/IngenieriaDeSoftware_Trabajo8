@@ -42,9 +42,15 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2e92e9ac90d363a735a8b07b5a7695cb5808edb2",
     "commitName": "Feat: Se agrego el precio neto precio por item * cantidad de items",
     "commitTimestamp": 1772719038737,
     "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Refactor: Eliminamos botones y hacemos mas estetico el html",
+    "commitTimestamp": 1772719598500,
+    "testId": 4
   }
 ]
