@@ -1,15 +1,12 @@
-import sumar from "./sumador";
+// Totalizador de Ventas
+const cantidadItemsInput = document.querySelector("#cantidad-items");
+const ventasForm = document.querySelector("#ventas-form");
+const resultadoItemsInput = document.querySelector("#resultado-items");
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
-const div = document.querySelector("#resultado-div");
-
-form.addEventListener("submit", (event) => {
+ventasForm.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+  const cantidadItems = cantidadItemsInput.value;
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+  resultadoItemsInput.value = cantidadItems;
 });

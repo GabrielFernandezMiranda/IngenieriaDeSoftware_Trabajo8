@@ -1,0 +1,16 @@
+[
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1772717720584,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Se agrego la primera funcionalidad de registrar los items y mostrarlos en pantalla",
+    "commitTimestamp": 1772718119325,
+    "testId": 0
+  }
+]

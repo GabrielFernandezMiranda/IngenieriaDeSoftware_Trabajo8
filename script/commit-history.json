@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Fernandez",
+    "commit": {
+      "date": "2026-03-05T13:41:57.000Z",
+      "message": "Se agrego la primera funcionalidad de registrar los items y mostrarlos en pantalla",
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo8/commit/HEAD"
+    },
+    "stats": {
+      "total": 59,
+      "additions": 40,
+      "deletions": 19,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
