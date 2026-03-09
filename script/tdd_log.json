@@ -78,9 +78,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9c2d48a25e42624e1b782068fd42bd49370e1ee3",
     "commitName": "Feat: Implementacios del feat descuento",
     "commitTimestamp": 1773067849810,
     "testId": 5
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 0,
+    "numTotalTests": 40,
+    "timestamp": 1773068151216,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 0,
+    "numTotalTests": 40,
+    "timestamp": 1773068384440,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Feat: Implementacion de impuestos por estado",
+    "commitTimestamp": 1773068416846,
+    "testId": 6
   }
 ]

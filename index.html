@@ -19,6 +19,19 @@
 
     <br /><br />
 
+    <div>
+      <label for="estado">Seleccionar estado:</label>
+      <select id="estado">
+        <option value="CA">California (CA)</option>
+        <option value="UT">Utah (UT)</option>
+        <option value="NV">Nevada (NV)</option>
+        <option value="TX">Texas (TX)</option>
+        <option value="AL">Alabama (AL)</option>
+      </select>
+    </div>
+
+    <br /><br />
+
     <h2>Precio Neto</h2>
     <form id="precio-neto-form">
       <input type="submit" value="Calcular Precio Neto" id="precio-neto-button" />
@@ -29,6 +42,13 @@
     <div>
       <label for="resultado-precio-neto">Resultado:</label>
       <input type="text" id="resultado-precio-neto" readonly />
+    </div>
+
+    <br /><br />
+
+    <div>
+      <label for="resultado-impuestos">Impuestos:</label>
+      <input type="text" id="resultado-impuestos" readonly />
     </div>
 
     <script type="module" src="./src/presenter.js"></script>

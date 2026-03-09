@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9c2d48a25e42624e1b782068fd42bd49370e1ee3",
     "author": "Gabriel Fernandez",
     "commit": {
       "date": "2026-03-09T14:50:47.000Z",
       "message": "Feat: Implementacios del feat descuento",
-      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo8/commit/HEAD"
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo8/commit/9c2d48a25e42624e1b782068fd42bd49370e1ee3"
     },
     "stats": {
       "total": 63,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 20,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Fernandez",
+    "commit": {
+      "date": "2026-03-09T15:00:14.000Z",
+      "message": "Feat: Implementacion de impuestos por estado",
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo8/commit/HEAD"
+    },
+    "stats": {
+      "total": 167,
+      "additions": 167,
+      "deletions": 0,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
+    "test_count": 40,
     "failed_tests": 0,
     "conclusion": "success"
   }
