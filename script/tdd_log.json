@@ -106,9 +106,15 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1e452d6bfa9d6e0733aca7ec5a9f3cb06faa1784",
     "commitName": "Fix: Se arreglo lo que muestra la interfaz de usuario",
     "commitTimestamp": 1773068713414,
     "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Fix: Se arreglo la interfaz de ususario y ahora muestra las 4 casillas solicitadas Precio, Descuento, Impuesto y total",
+    "commitTimestamp": 1773068770473,
+    "testId": 8
   }
 ]
