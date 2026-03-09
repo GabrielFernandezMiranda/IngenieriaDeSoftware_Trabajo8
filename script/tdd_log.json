@@ -100,9 +100,15 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6e98c499f008619694376dd72a5babf6385dafde",
     "commitName": "Feat: Implementacion de impuestos por estado",
     "commitTimestamp": 1773068416846,
     "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Fix: Se arreglo lo que muestra la interfaz de usuario",
+    "commitTimestamp": 1773068713414,
+    "testId": 7
   }
 ]

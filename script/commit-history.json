@@ -114,17 +114,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6e98c499f008619694376dd72a5babf6385dafde",
     "author": "Gabriel Fernandez",
     "commit": {
       "date": "2026-03-09T15:00:14.000Z",
       "message": "Feat: Implementacion de impuestos por estado",
-      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo8/commit/HEAD"
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo8/commit/6e98c499f008619694376dd72a5babf6385dafde"
     },
     "stats": {
       "total": 167,
       "additions": 167,
       "deletions": 0,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
+    "test_count": 40,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Fernandez",
+    "commit": {
+      "date": "2026-03-09T15:05:10.000Z",
+      "message": "Fix: Se arreglo lo que muestra la interfaz de usuario",
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo8/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 15,
+      "deletions": 2,
       "date": "2026-03-09"
     },
     "coverage": 100,

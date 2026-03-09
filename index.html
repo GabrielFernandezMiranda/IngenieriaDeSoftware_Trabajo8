@@ -2,6 +2,13 @@
 <html xml:lang="es">
   <head>
     <title>Totalizador de Ventas</title>
+    <style>
+      .resultado-input {
+        width: 400px;
+        padding: 10px;
+        font-size: 14px;
+      }
+    </style>
   </head>
   <body>
     <h1>Totalizador de Ventas</h1>
@@ -41,14 +48,14 @@
 
     <div>
       <label for="resultado-precio-neto">Resultado:</label>
-      <input type="text" id="resultado-precio-neto" readonly />
+      <input type="text" id="resultado-precio-neto" class="resultado-input" readonly />
     </div>
 
     <br /><br />
 
     <div>
       <label for="resultado-impuestos">Impuestos:</label>
-      <input type="text" id="resultado-impuestos" readonly />
+      <input type="text" id="resultado-impuestos" class="resultado-input" readonly />
     </div>
 
     <script type="module" src="./src/presenter.js"></script>
