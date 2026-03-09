@@ -48,9 +48,39 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fd3e8584c474b76cebc810cd2494d991c059624d",
     "commitName": "Refactor: Eliminamos botones y hacemos mas estetico el html",
     "commitTimestamp": 1772719598500,
     "testId": 4
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1773067645911,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1773067668411,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1773067795751,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Feat: Implementacios del feat descuento",
+    "commitTimestamp": 1773067849810,
+    "testId": 5
   }
 ]

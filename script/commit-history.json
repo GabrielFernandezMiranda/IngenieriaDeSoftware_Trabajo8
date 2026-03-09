@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fd3e8584c474b76cebc810cd2494d991c059624d",
     "author": "Gabriel Fernandez",
     "commit": {
       "date": "2026-03-05T14:06:36.000Z",
       "message": "Refactor: Eliminamos botones y hacemos mas estetico el html",
-      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo8/commit/HEAD"
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo8/commit/fd3e8584c474b76cebc810cd2494d991c059624d"
     },
     "stats": {
       "total": 49,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Fernandez",
+    "commit": {
+      "date": "2026-03-09T14:50:47.000Z",
+      "message": "Feat: Implementacios del feat descuento",
+      "url": "https://github.com/GabrielFernandezMiranda/IngenieriaDeSoftware_Trabajo8/commit/HEAD"
+    },
+    "stats": {
+      "total": 63,
+      "additions": 63,
+      "deletions": 0,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }
