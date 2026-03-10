@@ -1,4 +1,4 @@
-import calcularDescuentoEnvio from './clientShippingDiscount.js';
+import calcularDescuentoEnvio from './clientShippingDiscount.js.js';
 
 describe('Calcular Descuento en Costo de Envio por Tipo de Cliente', () => {
   it('deberia aplicar 0% de descuento para cliente Normal', () => {
