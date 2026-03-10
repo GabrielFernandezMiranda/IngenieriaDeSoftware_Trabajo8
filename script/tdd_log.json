@@ -116,5 +116,21 @@
     "commitName": "Fix: Se arreglo la interfaz de ususario y ahora muestra las 4 casillas solicitadas Precio, Descuento, Impuesto y total",
     "commitTimestamp": 1773068770473,
     "testId": 8
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 0,
+    "numTotalTests": 40,
+    "timestamp": 1773139872739,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 0,
+    "numTotalTests": 50,
+    "timestamp": 1773140001024,
+    "success": true,
+    "testId": 9
   }
 ]
