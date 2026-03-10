@@ -3,76 +3,142 @@
   <head>
     <title>Totalizador de Ventas</title>
     <style>
-      .resultado-input {
-        width: 400px;
-        padding: 10px;
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 0 20px;
+      }
+      .campo {
+        margin-bottom: 14px;
+      }
+      label {
+        display: inline-block;
+        width: 220px;
+      }
+      input[type="text"], select {
+        width: 200px;
+        padding: 6px;
         font-size: 14px;
       }
+      .resultado-input {
+        width: 400px;
+        padding: 8px;
+        font-size: 14px;
+        background-color: #f5f5f5;
+      }
+      #resultado-detalle {
+        width: 400px;
+        height: 180px;
+        padding: 8px;
+        font-size: 13px;
+        background-color: #f0f8ff;
+        font-family: monospace;
+      }
+      #mensaje-error {
+        display: none;
+        color: red;
+        background: #fff0f0;
+        border: 1px solid red;
+        padding: 8px;
+        margin-bottom: 10px;
+        border-radius: 4px;
+      }
+      h2 { margin-top: 24px; }
+      hr { margin: 20px 0; }
     </style>
   </head>
   <body>
     <h1>Totalizador de Ventas</h1>
-    <div>
-      <label for="cantidad-items">Ingresar cantidad de items:</label>
-      <input type="text" id="cantidad-items" autocomplete="off" required />
+
+    <div id="mensaje-error"></div>
+
+    <div class="campo">
+      <label for="cantidad-items">Cantidad de items:</label>
+      <input type="text" id="cantidad-items" autocomplete="off" />
     </div>
 
-    <br /><br />
-
-    <div>
-      <label for="precio-item">Ingresar precio por item:</label>
-      <input type="text" id="precio-item" autocomplete="off" required />
+    <div class="campo">
+      <label for="precio-item">Precio por item ($):</label>
+      <input type="text" id="precio-item" autocomplete="off" />
     </div>
 
-    <br /><br />
+    <div class="campo">
+      <label for="peso-volumetrico">Peso volumétrico por unidad:</label>
+      <input type="text" id="peso-volumetrico" autocomplete="off" />
+    </div>
 
-    <div>
-      <label for="estado">Seleccionar estado:</label>
+    <div class="campo">
+      <label for="estado">Estado:</label>
       <select id="estado">
-        <option value="CA">California (CA)</option>
-        <option value="UT">Utah (UT)</option>
-        <option value="NV">Nevada (NV)</option>
-        <option value="TX">Texas (TX)</option>
-        <option value="AL">Alabama (AL)</option>
+        <option value="CA">California (CA) - 8.25%</option>
+        <option value="UT">Utah (UT) - 6.65%</option>
+        <option value="NV">Nevada (NV) - 8.00%</option>
+        <option value="TX">Texas (TX) - 6.25%</option>
+        <option value="AL">Alabama (AL) - 4.00%</option>
       </select>
     </div>
 
-    <br /><br />
+    <div class="campo">
+      <label for="categoria">Categoría de producto:</label>
+      <select id="categoria">
+        <option value="Varios">Varios</option>
+        <option value="Alimentos">Alimentos (+2% dto)</option>
+        <option value="Bebidas alcoholicas">Bebidas alcohólicas (+7% imp)</option>
+        <option value="Material de escritorio">Material de escritorio (+1.5% dto)</option>
+        <option value="Muebles">Muebles (+3% imp)</option>
+        <option value="Electronicos">Electrónicos (+4% imp, +1% dto)</option>
+        <option value="Vestimenta">Vestimenta (+2% imp)</option>
+      </select>
+    </div>
 
-    <h2>Precio Neto</h2>
+    <div class="campo">
+      <label for="tipo-cliente">Tipo de cliente:</label>
+      <select id="tipo-cliente">
+        <option value="Normal">Normal</option>
+        <option value="Recurrente">Recurrente (0.5% dto envío)</option>
+        <option value="Antiguo Recurrente">Antiguo Recurrente (1% dto envío)</option>
+        <option value="Especial">Especial (1.5% dto envío)</option>
+      </select>
+    </div>
+
+    <hr />
+
     <form id="precio-neto-form">
-      <input type="submit" value="Calcular Precio Neto" id="precio-neto-button" />
+      <input type="submit" value="Calcular Total" id="precio-neto-button"
+        style="padding: 10px 20px; font-size: 16px; cursor: pointer;" />
     </form>
 
-    <br /><br />
+    <h2>Resultados</h2>
 
-    <br /><br />
-
-    <div>
-      <label for="resultado-precio-neto">Resultado:</label>
+    <div class="campo">
+      <label for="resultado-precio-neto">Precio Neto:</label>
       <input type="text" id="resultado-precio-neto" class="resultado-input" readonly />
     </div>
 
-    <br /><br />
-
-    <div>
+    <div class="campo">
       <label for="resultado-descuento">Descuento:</label>
       <input type="text" id="resultado-descuento" class="resultado-input" readonly />
     </div>
 
-    <br /><br />
-
-    <div>
+    <div class="campo">
       <label for="resultado-impuestos">Impuestos:</label>
       <input type="text" id="resultado-impuestos" class="resultado-input" readonly />
     </div>
 
-    <br /><br />
-
-    <div>
-      <label for="resultado-total">Total:</label>
-      <input type="text" id="resultado-total" class="resultado-input" readonly />
+    <div class="campo">
+      <label for="resultado-costo-envio">Costo de Envío:</label>
+      <input type="text" id="resultado-costo-envio" class="resultado-input" readonly />
     </div>
+
+    <div class="campo">
+      <label for="resultado-total"><strong>Total:</strong></label>
+      <input type="text" id="resultado-total" class="resultado-input" readonly
+        style="font-weight: bold; font-size: 16px;" />
+    </div>
+
+    <h2>Detalle del cálculo</h2>
+    <textarea id="resultado-detalle" readonly></textarea>
 
     <script type="module" src="./src/presenter.js"></script>
   </body>
