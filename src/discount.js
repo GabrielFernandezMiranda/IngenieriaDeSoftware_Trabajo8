@@ -1,7 +1,10 @@
-function calcularDescuento(precioTotal) {
+import { descuentosPorCategoria } from './CategoryDiscount.js';
+
+function calcularDescuento(precioTotal, categoria = 'Varios') {
   const precio = parseFloat(precioTotal) || 0;
   let descuento = 0;
 
+  // Descuento base por monto
   if (precio >= 30000) {
     descuento = precio * 0.15;
   } else if (precio >= 10000) {
@@ -14,7 +17,11 @@ function calcularDescuento(precioTotal) {
     descuento = precio * 0.03;
   }
 
-  return parseFloat(descuento.toFixed(2));
+  // Descuento adicional por categoría
+  const tasaCategoria = descuentosPorCategoria[categoria] ?? 0;
+  const descuentoCategoria = precio * (tasaCategoria / 100);
+
+  return parseFloat((descuento + descuentoCategoria).toFixed(2));
 }
 
 export default calcularDescuento;
